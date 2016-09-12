@@ -1,11 +1,16 @@
 #!/usr/bin/env bash
 
 function IMPORT_yColor {
-    yoieh_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd)"
-    yColor_DIR=${yoieh_DIR}"/yColor/"
+    yoieh_DIR1="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd)"
+    yoieh_DIR1="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && cd .. && pwd)"
+    yColor_DIR1=${yoieh_DIR1}"/yColor/"
+    yColor_DIR2=${yoieh_DIR2}"/yColor/"
 
-    if [ -d "${yColor_DIR}" ]; then
-        source ${yColor_DIR}"yColor.sh";
+    if [ -d "${yColor_DIR1}" ]; then
+        source ${yColor_DIR1}"yColor.sh";
+        return 0
+    elif [ -d "${yColor_DIR2}" ]; then
+        source ${yColor_DIR1}"yColor.sh";
         return 0
     else
         return 1
