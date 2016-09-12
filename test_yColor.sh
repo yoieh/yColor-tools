@@ -10,7 +10,7 @@ function IMPORT_yColor {
         source ${yColor_DIR1}"yColor.sh";
         return 0
     elif [ -d "${yColor_DIR2}" ]; then
-        source ${yColor_DIR1}"yColor.sh";
+        source ${yColor_DIR2}"yColor.sh";
         return 0
     else
         return 1

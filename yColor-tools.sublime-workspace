@@ -523,7 +523,7 @@
 			"file": "test_yColor.sh",
 			"settings":
 			{
-				"buffer_size": 645,
+				"buffer_size": 872,
 				"line_ending": "Unix"
 			}
 		}
@@ -993,15 +993,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 645,
+						"buffer_size": 872,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								46,
-								120
+								505,
+								505
 							]
 						],
 						"settings":
@@ -1090,7 +1090,7 @@
 		[
 			[
 				"",
-				"~/Documents/github.com/yoieh/lab/lab.sublime-project"
+				"~/Documents/github.com/yoieh/centos7_net-setup/centos7_net-setup.sublime-project"
 			]
 		],
 		"width": 380.0
