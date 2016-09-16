@@ -41,5 +41,3 @@ function IF_yColor {
 if IF_yColor; then
 	source ${yColor_dir}"yColor.sh";
 fi
-
-exit 0
